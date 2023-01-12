@@ -1,0 +1,134 @@
+.body {
+    position: fixed;
+    inset: 0;
+    overflow: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #0005;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+body {
+    background-color: black;
+    background-image: url("./bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.searcharea {
+    width: 100%;
+    padding: 20px;
+
+}
+
+.search {
+    width: 100%;
+    max-width: 500px;
+    margin-inline: auto;
+    display: flex;
+    overflow: hidden;
+    gap: 15px;
+
+
+}
+
+.search input {
+    flex: 1;
+    background: none;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid #fff4;
+    background-color: #fff3;
+    padding: 10px 20px;
+    font-size: 18px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.search input::placeholder {
+    color: #fff9;
+}
+
+.search input:focus {
+    border-color: #fff;
+}
+
+.search button {
+    background: none;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid #fff4;
+    background-color: #fff3;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.search button:hover {
+    cursor: pointer;
+    background-color: #fff6;
+}
+
+
+
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location {
+    font-size: 40px !important;
+    /* margin-left: -80px; */
+}
+
+.temp {
+    font-size: 90px;
+    font-weight: 700;
+}
+
+
+
+
+
+.footer {
+    width: 100%;
+    padding: 10px 20px 40px;
+
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff1a;
+    border-radius: 8px;
+    padding: 15px 0;
+
+}
+
+.feels{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.humidity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wind{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
