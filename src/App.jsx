@@ -91,7 +91,7 @@ function App() {
         <div className="bottom">
           <div className="feels">
             <div>
-              {weather.main.feels_like}{weather.main.feels_like !="--" && "°C"}
+              {weather.main.feels_like}{weather.main.feels_like !=="--" && "°C"}
             </div>
             <div>
               Feels Like
