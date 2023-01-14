@@ -49,6 +49,7 @@ body {
     font-size: 18px;
     outline: none;
     transition: 0.2s;
+    min-width: 0px;
 }
 
 .search input::placeholder {

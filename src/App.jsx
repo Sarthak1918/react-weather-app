@@ -4,7 +4,6 @@ import './app.css';
 const api = {
   key: "ffcbb5402262cde738c157a54cb05d87",
   base: "https://api.openweathermap.org/data/2.5/"
-
 }
 
 
@@ -91,7 +90,7 @@ function App() {
         <div className="bottom">
           <div className="feels">
             <div>
-              {weather.main.feels_like}{weather.main.feels_like !=="--" && "°C"}
+              {weather.main.feels_like}{weather.main.feels_like !== "--" && "°C"}
             </div>
             <div>
               Feels Like
